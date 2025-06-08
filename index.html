@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End of Year Party 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px 0;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+            to { text-shadow: 2px 2px 20px rgba(255,255,255,0.5); }
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .program-section {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .program-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #ffd700;
+        }
+
+        .program-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            margin-bottom: 10px;
+            border-radius: 10px;
+            border-left: 4px solid #ffd700;
+            transition: transform 0.3s ease;
+        }
+
+        .program-item:hover {
+            transform: translateX(5px);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .program-time {
+            font-weight: bold;
+            color: #ffd700;
+            min-width: 100px;
+        }
+
+        .program-activity {
+            flex-grow: 1;
+            margin-left: 20px;
+        }
+
+        .photo-upload-section {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .upload-form {
+            text-align: center;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            border: 2px dashed #ffd700;
+        }
+
+        .form-button {
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
+            color: #333;
+            border: none;
+            padding: 20px 40px;
+            border-radius: 25px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            margin: 15px 0;
+        }
+
+        .form-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 215, 0, 0.4);
+        }
+
+        .gallery-section {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .gallery-embed {
+            width: 100%;
+            height: 600px;
+            border: none;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .instructions {
+            background: rgba(0, 255, 0, 0.1);
+            border: 1px solid #00ff88;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .instructions h3 {
+            color: #00ff88;
+            margin-bottom: 10px;
+        }
+
+        .instructions ol {
+            margin-left: 20px;
+        }
+
+        .instructions li {
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .program-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .program-time {
+                margin-bottom: 5px;
+            }
+            
+            .form-button {
+                padding: 15px 30px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎉 End of Year Party 2025</h1>
+            <p>Share your memories and enjoy the celebration</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-number">FREE</div>
+                <div class="stat-label">Photo Sharing</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">LIVE</div>
+                <div class="stat-label">Updates</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">8:00 PM</div>
+                <div class="stat-label">Event Start</div>
+            </div>
+        </div>
+
+        <div class="program-section">
+            <h2>📋 Order of Program</h2>
+            <div class="program-item">
+                <div class="program-time">7:30 PM</div>
+                <div class="program-activity">🚪 Registration & Welcome Drinks</div>
+            </div>
+            <div class="program-item">
+                <div class="program-time">8:00 PM</div>
+                <div class="program-activity">🎤 Opening Remarks & Year Review</div>
+            </div>
+            <div class="program-item">
+                <div class="program-time">8:30 PM</div>
+                <div class="program-activity">🍽️ Dinner Service</div>
+            </div>
+            <div class="program-item">
+                <div class="program-time">9:15 PM</div>
+                <div class="program-activity">🏆 Awards & Recognition Ceremony</div>
+            </div>
+            <div class="program-item">
+                <div class="program-time">10:00 PM</div>
+                <div class="program-activity">🎵 Live Music Performance</div>
+            </div>
+            <div class="program-item">
+                <div class="program-time">10:30 PM</div>
+                <div class="program-activity">💃 Dancing & Social Time</div>
+            </div>
+            <div class="program-item">
+                <div class="program-time">11:30 PM</div>
+                <div class="program-activity">📸 Group Photos & Networking</div>
+            </div>
+            <div class="program-item">
+                <div class="program-time">12:00 AM</div>
+                <div class="program-activity">🎊 Countdown to New Year</div>
+            </div>
+        </div>
+
+        <div class="photo-upload-section">
+            <h2>📸 Share Your Event Photos</h2>
+            
+            <div class="instructions">
+                <h3>🎯 How to Share Photos (100% Free):</h3>
+                <ol>
+                    <li><strong>Click the "Upload Photos" button below</strong></li>
+                    <li><strong>Fill in your name (optional)</strong></li>
+                    <li><strong>Select and upload your photos</strong></li>
+                    <li><strong>Submit the form</strong></li>
+                    <li><strong>Your photos will appear in the gallery below!</strong></li>
+                </ol>
+                <p style="margin-top: 15px; font-style: italic;">
+                    ✨ All photos are automatically shared with everyone at the event!
+                </p>
+            </div>
+
+            <div class="upload-form">
+                <h3>📱 Upload Your Photos Now</h3>
+                <p style="margin-bottom: 20px;">Click the button below to share your photos with everyone!</p>
+                
+                <!-- Your actual Google Form URL -->
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScN6YxhfPrJ5EcYkC_mEQ_vUjTCh8B8wJ2VNA3DezbwZK_5hg/viewform?usp=header" 
+                   target="_blank" 
+                   class="form-button">
+                    📸 Upload Photos Here
+                </a>
+                
+                <p style="margin-top: 15px; font-size: 0.9rem; opacity: 0.8;">
+                    Opens in a new tab - photos appear here automatically
+                </p>
+            </div>
+        </div>
+
+        <div class="gallery-section">
+            <h2 style="text-align: center; color: #ffd700; margin-bottom: 20px;">
+                🖼️ Live Photo Gallery
+            </h2>
+            <p style="text-align: center; margin-bottom: 20px; opacity: 0.9;">
+                All uploaded photos appear here automatically
+            </p>
+            
+            <!-- Your actual Google Drive folder -->
+            <iframe src="https://drive.google.com/embeddedfolderview?id=15ETnQDm_BvIDbH5TkpTpi1LdSycLVUOiYs6nZ4EyO_iOBLd5v95iwtKCKcNEAnp4_CROQ5n_#grid" 
+                    class="gallery-embed"
+                    title="Event Photo Gallery">
+            </iframe>
+            
+            <p style="text-align: center; margin-top: 15px; font-size: 0.9rem; opacity: 0.7;">
+                📱 Tip: Refresh this page to see new photos that others have uploaded
+            </p>
+        </div>
+
+        <div style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border-radius: 15px; padding: 20px; text-align: center;">
+            <h3 style="color: #ffd700; margin-bottom: 10px;">🎊 Enjoy the Party!</h3>
+            <p>Don't forget to take lots of photos and share them here so everyone can see the amazing moments!</p>
+        </div>
+    </div>
+
+    <script>
+        // Simple visitor counter using localStorage
+        let visitors = parseInt(localStorage.getItem('partyVisitors') || '0');
+        visitors++;
+        localStorage.setItem('partyVisitors', visitors.toString());
+        
+        // Update any stat that shows visitor count (if you want to add it)
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log(`Visitor #${visitors} - Welcome to the party!`);
+        });
+
+        // Auto refresh gallery every 2 minutes to show new photos
+        setInterval(function() {
+            const iframe = document.querySelector('.gallery-embed');
+            if (iframe) {
+                // Refresh the iframe to show new photos
+                iframe.src = iframe.src;
+            }
+        }, 120000); // 2 minutes
+    </script>
+</body>
+</html>
